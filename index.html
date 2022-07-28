@@ -5,99 +5,121 @@
         <meta name = "description" content="This is Barbra's portfolio">
         <meta name="author" content="Barbra Gitonga">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=== FAVICON ===-->
+        <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+
+        <!--=== FONTAWESOME ===-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+        <!--====== UNICORN ======-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!--=== CSS ===-->
+        <link rel="stylesheet" href="assets/CSS/style.css">
+
         <title>Barbra Gitonga</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
-    
     <body>
-        
-           <!-- Home page -->
-        <section class="home_section" id="home">
-            
-            <div  class="hero-image">
-                <nav class="navbar navbar-inverse ">
-                    <div class="container-fluid">
-                      <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>                        
-                        </button>
-                        <a class="navbar-brand" href="#"><span>Portfo</span>lio</a>
-                      </div>
-                      <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#home">Home</a></li>
-                            <li class="active"><a href="#about">About</a></li>
-                            <li class="active"><a href="#skills">Skills</a></li>
-                            <li class="active"><a href="#projects">Projects</a></li>
-                            <li class="active"><a href="#blog">Blog</a></li>
-                            <li class="active"><a href="#contact">Contact Me</a></li>
-                        </ul>
-                      </div>
-                </nav>
-                <div class="hero-text"> 
-                    <h1>I am Barbra</h1>
-                    <h2>Welcome to my portfolio</h2>
+        <!---=== HEADER ===-->
+        <header class="header" id="header">
+            <!-- Navigation -->
+            <nav class="nav container">
+                <!-- Logo -->
+                <div class="nav_logo">
+                    <a href="#">
+                        <h1><span>B</span>ARBRA</h1>
+                    </a>
                 </div>
-                
+                <!-- Navigation bar -->
+                <ul class="navbar">
+                    <li><a href="#home" class="nav_link active-link">Home</a></li>
+                    <li><a href="#about" class="nav_link">About</a></li>
+                    <li><a href="#skills" class="nav_link">Skills</a></li>
+                    <li><a href="#projects" class="nav_link">Projects</a></li>
+                    <li><a href="#blog" class="nav_link">Blog</a></li>
+                    <li><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+                <!-- Menu-->
+                <div class="menu_icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <main class="main">
+            <!-- Home page -->
+            <section class="home section" id="home">
+                <div class="home_container">
+                    <div class="home_title">
+                        <h3>Hello</h3>
+                        <h2>I'm <span class="home_name">Barbra</span></h2>
+                        <h1 class="home_subtitle">I'm <span class="animation"></span></h1>
+                    </div>
+                    <div class="home_social">
+                        <a href="#"  target="_blank" class="home_social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="#" target="_blank" class="home_social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                        <a href="#" target="_blank" class="home_social-icon">
+                            <i class="uil uil-envelope"></i>
+                        </a>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- About section -->
-        <section class="about section" id="about">
-            <h2>About Me</h2>
-            <p>I am an <span>Electronics and Computer Engineering Student</span> at Jomo Kenyatta University of Agriculture and Technology. I am passionate in Electronics, Embedded systems, Machine Learning and Robotics.</p>
+            <!-- About section -->
+            <section class="about section" id="about">
+                <h2 class="section_title">About</h2>
+                <span class="section_subtitle">Me</span>
+                <div class="about_container container grid">
+                    <img src="assets/Img/port2.jpg" alt="" class="about-img">
+                    <div class="about_data">
+                        <p class="about_description">I am an Electronics and Computer Engineering Student at Jomo Kenyatta University of Agriculture and Technology. I am passionate in Electronics, Embedded systems, Machine Learning and Robotics.</p>
+                        <div class="about_button">
+                            <a download="" href="" class="button">
+                                Download CV<i class="fa-solid fa-download button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section> 
 
-        </section>
+            <!-- Skills section -->
+            <section class="skills section" id="skills">
+                <h2 class="section_title">Skills</h2>
+            </section>
 
-        <!-- Skills section -->
-        <section class="skills section" id="skills">
-            <!-- Design and fabrcation section -->
-            <h4>Design and fabrication</h4>
-            <p>I have been trained and certified on using Fusion 360 CAD software at Gearbox Academy Experience.</p>
-            <p>I am capable of using the software for both mechanical and PCB designs</p>
-        
+            <!-- Projects section -->
+            <section class="projects section" id="projects">
+                <h2 class="section_title">Projects</h2>
+            </section>
 
-            <!-- Embedded systems column -->
-            <h4>Embedded systems</h4>
-            <p>I am capable of protptyping projects through Arduino, Raspberry Pi pico, Raspberry Pi and ESP32.</p>
-            
+            <!-- Blogs section -->
+            <section class="blog section" id="blog">
+                <h2 class="section_title">Blog</h2>
+            </section>
 
-            <!-- Machine Learning -->
-            <h4>Machine Learning</h4>
-            <p>I am able to apply Computer vision with both OpenCV and CNN models</p>
-            
-            <!-- Languages -->
-            <h4>Computer Languages</h4>
-            <p>I am good with Python, C, html and css.</p>
-        
-        </section>
-        
-        <!-- projects section ( they will be in a cad formart arrangement)-->
-        <section class="projects section" id="projects">
-            <h4>Projects</h4>
-            <h5>Door Automation</h5>
-            <p> I participated in the door autamtion project at Gearbox Academy Experience where made an RFID access prototype using Arduino as well as the face detection access.</p>
-            <a href="#">Github Repository</a>
-            <a href="#">The project results</a>
+            <!-- Contact section -->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">Contact Me</h2>
+            </section>
 
-            <h5>Face Recognition software</h5>
-            <p>I participated in building a Face recognition software at Gearbox Academy Experience using both OpenCV and Tensorflow keras, facenet model</p>
-            <a href="#">Github Repo</a>
-            <a href="#">Results Blog</a>
-        </section>
 
-        <!-- Contact Me -->
-        <section class="contact me" id="Contact Me">
-            
-        </section>
+        <!-- Footer -->
+        </main>
+
+        <!--=== TYPEDJS ====-->
+        <script src="assets/typed.js/typed.min.js"></script>
+        <!--=== JQUERY ===-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!--=== JS ===-->
+        <script src="assets/Js/main.js"></script>
         </body>
-        
 </html>
