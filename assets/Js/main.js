@@ -13,7 +13,7 @@ menu.onclick = () => {
 
 /* Typed Animation */
 var typed = new Typed('.animation', {
-    strings:['an Engineer', 'a Full-stack Developer', 'a Designer'],
+    strings:['an Engineer', 'ML Enthusiast', 'CAD Designer'],
     typeSpeed:70,
     BackSpeed:60,
     loop:true

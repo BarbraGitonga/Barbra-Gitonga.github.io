@@ -4,7 +4,7 @@
 /*variables*/
 :root{
     --background--color: #2d2e2e;
-    --title--color: #FFCC33;
+    --title--color: #fff;
     --first--color: #d400d4;
     --first--color--lighter: #fb93fb;
     --text-color: #ffffffea;
@@ -235,6 +235,10 @@ header{
     overflow: hidden;
     margin-bottom: 2rem;
 }*/
+
+.home_container svg{
+    margin-bottom: 2rem;
+}
 
 .home_title{
     display: flex;
