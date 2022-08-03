@@ -7,147 +7,426 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=== FAVICON ===-->
-        <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="" type="image/x-icon">
 
-        <!--=== FONTAWESOME ===-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <!--====== BOXICONS ======-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
-        <!--====== UNICORN ======-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!--=== SWIPER CSS ===-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
         <!--=== CSS ===-->
-        <link rel="stylesheet" href="assets/CSS/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
 
         <title>Barbra Gitonga</title>
     </head>
     <body>
-        <!---=== HEADER ===-->
+        <!--====== SCROLL TOP ======-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop-icon'></i>
+        </a>
+        <!--====== HEADER ======-->
         <header class="header" id="header">
-            <!-- Navigation -->
             <nav class="nav container">
-                <!-- Logo -->
-                <div class="nav_logo">
-                    <a href="#">
-                        <h1><span>B</span>ARBRA</h1>
-                    </a>
+                <a href="#" class="nav_logo">Barbra</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">About</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">Skills</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#resume" class="nav_link">Resume</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#projects" class="nav_link">Projects</a>
+                        </li>
+                    </ul>
                 </div>
-                <!-- Navigation bar -->
-                <ul class="navbar">
-                    <li><a href="#home" class="nav_link active-link">Home</a></li>
-                    <li><a href="#about" class="nav_link">About</a></li>
-                    <li><a href="#skills" class="nav_link">Skills</a></li>
-                    <li><a href="#projects" class="nav_link">Projects</a></li>
-                    <li><a href="#blog" class="nav_link">Blog</a></li>
-                    <li><a href="#contact" class="nav_link">Contact</a></li>
-                </ul>
-                <!-- Menu-->
-                <div class="menu_icon">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
                 </div>
             </nav>
         </header>
 
-        <!-- Main -->
         <main class="main">
-            <!-- Home page -->
-            <section class="home section" id="home">
-                <div class="home_container">
-                    <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
-                        <g transform="translate(142.37366485595703, -9.72818374633789)">
-                          <defs>
-                            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                              <stop offset="0%" style="stop-color: rgb(179, 0, 179);"></stop>
-                              <stop offset="100%" style="stop-color: rgb(252, 100, 252);"></stop>
-                            </linearGradient>
-                          </defs>
-                          <path fill="url(#gradient)">
-                            <animate attributeName="d"
-                                dur="10000ms"
-                                repeatCount="indefinite"
-
-                                values="M450,300Q405,350,375,404.5Q345,459,280.5,471.5Q216,484,173,436Q130,388,90.5,348Q51,308,41.5,247Q32,186,75,142Q118,98,169.5,73Q221,48,283,45.5Q345,43,385.5,90Q426,137,460.5,193.5Q495,250,450,300Z;
-                                
-                                M462.5,309.5Q435,369,386,405Q337,441,280.5,434.5Q224,428,158,430Q92,432,70,370.5Q48,309,33,245.5Q18,182,62,132.5Q106,83,160.5,45.5Q215,8,269,49Q323,90,387,105.5Q451,121,470.5,185.5Q490,250,462.5,309.5Z;
-                                
-                                M431.5,309.5Q435,369,384.5,401.5Q334,434,276,454Q218,474,172.5,433Q127,392,76,354Q25,316,18.5,248Q12,180,57.5,130.5Q103,81,160,51.5Q217,22,285.5,22.5Q354,23,405,70.5Q456,118,442,184Q428,250,431.5,309.5Z;
-                                
-                                M452.5,303Q415,356,384.5,416.5Q354,477,288.5,456Q223,435,161,429.5Q99,424,69.5,368Q40,312,28,246.5Q16,181,56,127Q96,73,160,71Q224,69,286.5,51.5Q349,34,379,91Q409,148,449.5,199Q490,250,452.5,303Z;
-                                
-                                M423,301.5Q410,353,369.5,388Q329,423,272,459.5Q215,496,165,451Q115,406,97.5,353Q80,300,80,250Q80,200,93.5,142.5Q107,85,166,81Q225,77,281,68.5Q337,60,392,92Q447,124,441.5,187Q436,250,423,301.5Z;
-                                
-                                M450,300Q405,350,375,404.5Q345,459,280.5,471.5Q216,484,173,436Q130,388,90.5,348Q51,308,41.5,247Q32,186,75,142Q118,98,169.5,73Q221,48,283,45.5Q345,43,385.5,90Q426,137,460.5,193.5Q495,250,450,300Z;">
-                            </animate>
-                          </path>
-                        </g>
-                      </svg>
-                     
-                    <div class="home_title">
-                        <h3>Hello</h3>
-                        <h2>I'm <span class="home_name">Barbra</span></h2>
-                        <h1 class="home_subtitle">I'm <span class="animation"></span></h1>
+        <!--====== HOME ======-->
+        <section class="home" id="home">
+            <div class="home_container">
+                <div class="home_img">
+                    <img src="assets/img/Team2.jpg" alt="">
+                </div>
+                <div class="home_content">
+                    <h3>Hello</h3>
+                    <h2>I'm <span class="home_name">Barbra</span></h2>
+                    <h1 class="home_description">I'm <span class="animation"></span></h1>
+                </div>
+                <div class="home_social">
+                    <a href="https://www.linkedin.com/in/barbra-gitonga/"  target="_blank" class="home_social-icon">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://github.com/BarbraGitonga" target="_blank" class="home_social-icon">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.gitongabarbra@gmail.com" target="_blank" class="home_social-icon">
+                        <i class='bx bx-envelope'></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--====== ABOUT ======-->
+        <section class="about section container" id="about">
+            <span class="section_subtitle">My Intro</span>
+            <h2 class="section_title">About Me</h2>
+            <div class="about_container grid">
+                <div class="about_data grid">
+                    <p class="about_description"><span>Barbra Gitonga<br></span>I am an Electronics and Computer Engineering Student at Jomo Kenyatta University of Agriculture and Technology. I am passionate in Electronics, Embedded systems, Machine Learning and Robotics.</p>
+                    <div class="about_bx">
+                        <div>
+                            <span class="about_number">0+</span>
+                            <span class="about_content">Year experience</span>
+                        </div>
+                        <div>
+                            <span class="about_number">0+</span>
+                            <span class="about_content">Projects</span>
+                        </div>
+                        <div>
+                            <span class="about_number">0+</span>
+                            <span class="about_content">Companies Worked</span>
+                        </div>
                     </div>
-                    <div class="home_social">
-                        <a href="https://www.linkedin.com/in/barbra-gitonga/"  target="_blank" class="home_social-icon">
-                            <i class="uil uil-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/BarbraGitonga" target="_blank" class="home_social-icon">
-                            <i class="uil uil-github"></i>
-                        </a>
-                        <a href="https://www.gitongabarbra@gmail.com" target="_blank" class="home_social-icon">
-                            <i class="uil uil-envelope"></i>
+                    <div class="about_buttons">
+                        <a download="" href="" class="button button--flex">
+                            Download CV<i class='bx bx-download button_icon'></i>
                         </a>
                     </div>
                 </div>
-            </section>
+                <img src="assets/img/about.jpg" alt="" class="about_img">
+            </div>
+        </section>
+        <!--====== SKILLS ======-->
+        <section class="about section container" id="skills">
+            <span class="section_subtitle">My</span>
+            <h2 class="section_title">Skills</h2>
+        </section>
+        <!--====== RESUME ======-->
+        <section class="resume section container" id="resume">
+            <span class="section_subtitle">Education and Experience</span>
+            <h2 class="section_title">Resume</h2>
+            <div class="resume_container grid">
+                <div class="resume_content">
+                    <h2 class="resume_heading">
+                        <i class='bx bx-book-bookmark resume-icon'></i>
+                        Education
+                    </h2>
+                    <div class="grid">
+                        <div class="resume_data">
+                            <!--Course-->
+                            <h3 class="work_area">Lorem, ipsum.</h3>
 
-            <!-- About section -->
-            <section class="about section" id="about">
-                <h2 class="section_title">About</h2>
-                <span class="section_subtitle">Me</span>
-                <div class="about_container container grid">
-                    <img src="assets/Img/port2.jpg" alt="" class="about-img">
-                    <div class="about_data">
-                        <p class="about_description">I am an Electronics and Computer Engineering Student at Jomo Kenyatta University of Agriculture and Technology. I am passionate in Electronics, Embedded systems, Machine Learning and Robotics.</p>
-                        <div class="about_button">
-                            <a download="" href="" class="button">
-                                Download CV<i class="fa-solid fa-download button_icon"></i>
-                            </a>
+                            <div class="resume_box">
+                                <span class="resume_work">
+                                    <!--University-->
+                                    <i class='bx bx-book resume-icon'></i>
+                                    Lorem, ipsum.
+                                </span>
+                                <span class="resume_work">
+                                    <i class='bx bx-calendar-alt resume-icon' ></i>
+                                    <!--Dates-->
+                                    Date, Date.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="resume_data">
+                            <!--KCSE-->
+                            <h3 class="work_area">Lorem, ipsum.</h3>
+
+                            <div class="resume_box">
+                                <span class="resume_work">
+                                    <!--School-->
+                                    <i class='bx bx-book resume-icon'></i>
+                                    Lorem, ipsum.
+                                </span>
+                                <span class="resume_work">
+                                    <i class='bx bx-calendar-alt resume-icon' ></i>
+                                    <!--Dates-->
+                                    Date, Date.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="resume_data">
+                            <!--KCPE-->
+                            <h3 class="work_area">Lorem, ipsum.</h3>
+
+                            <div class="resume_box">
+                                <span class="resume_work">
+                                    <!--School-->
+                                    <i class='bx bx-book resume-icon'></i>
+                                    Lorem, ipsum.
+                                </span>
+                                <span class="resume_work">
+                                    <i class='bx bx-calendar-alt resume-icon' ></i>
+                                    <!--Dates-->
+                                    Date, Date.
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section> 
+                <div class="resume_content">
+                    <h2 class="resume_heading">
+                        <i class='bx bx-briefcase-alt-2 resume-icon'></i>
+                        Work Experience
+                    </h2>
+                    <div class="grid">
+                        <div class="resume_data">
+                            <!--Work Position-->
+                            <h3 class="work_area">Lorem, ipsum.</h3>
 
-            <!-- Skills section -->
-            <section class="skills section" id="skills">
-                <h2 class="section_title">Skills</h2>
-            </section>
+                            <div class="resume_box">
+                                <span class="resume_work">
+                                    <!--Place of Work-->
+                                    <i class='bx bx-briefcase resume-icon'></i> 
+                                    Lorem, ipsum.
+                                </span>
+                                <span class="resume_work">
+                                    <i class='bx bx-calendar-alt resume-icon' ></i>
+                                    <!--Dates of work-->
+                                    Date, Date.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="resume_data">
+                            <h3 class="work_area">Lorem, ipsum.</h3>
 
-            <!-- Projects section -->
-            <section class="projects section" id="projects">
-                <h2 class="section_title">Projects</h2>
-            </section>
+                            <div class="resume_box">
+                                <span class="resume_work">
+                                    <!--Place of Work-->
+                                    <i class='bx bx-briefcase resume-icon'></i> 
+                                    Lorem, ipsum.
+                                </span>
+                                <span class="resume_work">
+                                    <i class='bx bx-calendar-alt resume-icon' ></i>
+                                    <!--Dates of work-->
+                                    Date, Date.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="resume_data">
+                            <h3 class="work_area">Lorem, ipsum.</h3>
 
-            <!-- Blogs section -->
-            <section class="blog section" id="blog">
-                <h2 class="section_title">Blog</h2>
-            </section>
+                            <div class="resume_box">
+                                <span class="resume_work">
+                                    <!--Place of Work-->
+                                    <i class='bx bx-briefcase resume-icon'></i> 
+                                    Lorem, ipsum.
+                                </span>
+                                <span class="resume_work">
+                                    <i class='bx bx-calendar-alt resume-icon' ></i>
+                                    <!--Dates of work-->
+                                    Date, Date.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== BANNER ======-->
+        <section class="banner">
+            <div class="banner_container">
+                <div class="banner_data">
+                    <i class='bx bx-chat banner_icon'></i>
+                    <h2 class="banner_title">Have a project in mind?</h2>
+                    <p class="banner_description">Hire me to carry out the project</p>
+                </div>
+                <div>
+                    <a href="#contact" class="button_light button--flex">Contact Me</a>
+                </div>
+            </div>
+        </section>
+        <!--====== PROJECTS ======-->
+        <section class="projects section container" id="projects">
+            <span class="section_subtitle">My Projects</span>
+            <h2 class="section_title">Recent Works</h2>
+            <div class="portfolio_nav">
+                <span class="portfolio_item .active_portfolio " data-filter="all">All</span>
+                <span class="portfolio_item" data-filter=".ml">ML</span>
+                <span class="portfolio_item" data-filter=".cad">CAD</span>
+                <span class="portfolio_item" data-filter=".microcontroller">Microcontrollers</span>
+            </div>
+            <div class="portfolio_container grid">
+                <!--Project 1-->
+                <div class="portfolio_content mix ml">
+                    <a href="#">
+                        <img src="assets/img/Team1.jpg" alt="" class="portfolio_img">
+                    </a>
+                    <div class="portfolio_data">
+                        <span class="portfolio_subtitle">Lorem</span>
+                        <a href="#">
+                            <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
+                        </a>
+                        <a href="#" class="button">View More</a>
+                    </div>
+                </div>
+                <!--Project 2-->
+                <div class="portfolio_content mix ml">
+                    <a href="#">
+                        <img src="assets/img/Team3.jpg" alt="" class="portfolio_img">
+                    </a>
+                    <div class="portfolio_data">
+                        <span class="portfolio_subtitle">Lorem</span>
+                        <a href="#">
+                            <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
+                        </a>
+                        <a href="#" class="button">View More</a>
+                    </div>
+                </div>
+                <!--Project 3-->
+                <div class="portfolio_content mix cad">
+                    <a href="#">
+                        <img src="assets/img/Team1.jpg" alt="" class="portfolio_img">
+                    </a>
+                    <div class="portfolio_data">
+                        <span class="portfolio_subtitle">Lorem</span>
+                        <a href="#">
+                            <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
+                        </a>
+                        <a href="#" class="button">View More</a>
+                    </div>
+                </div>
+                <!--Project 4-->
+                <div class="portfolio_content mix cad">
+                    <a href="#">
+                        <img src="assets/img/Team3.jpg" alt="" class="portfolio_img">
+                    </a>
+                    <div class="portfolio_data">
+                        <span class="portfolio_subtitle">Lorem</span>
+                        <a href="#">
+                            <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
+                        </a>
+                        <a href="#" class="button">View More</a>
+                    </div>
+                </div>
+                <!--Project 5-->
+                <div class="portfolio_content mix microcontroller">
+                    <a href="#">
+                        <img src="assets/img/Team1.jpg" alt="" class="portfolio_img">
+                    </a>
+                    <div class="portfolio_data">
+                        <span class="portfolio_subtitle">Lorem</span>
+                        <a href="#">
+                            <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
+                        </a>
+                        <a href="#" class="button">View More</a>
+                    </div>
+                </div>
+                <!--Project 6-->
+                <div class="portfolio_content mix microcontroller">
+                    <a href="#">
+                        <img src="assets/img/Team3.jpg" alt="" class="portfolio_img">
+                    </a>
+                    <div class="portfolio_data">
+                        <span class="portfolio_subtitle">Lorem</span>
+                        <a href="#">
+                            <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
+                        </a>
+                        <a href="#" class="button">View More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--====== BLOGS ======-->
+        <section class="blogs section container">
+            <span class="section_subtitle">My</span>
+            <h2 class="section_title">Blogs</h2>
+            <div class="blogs_container swiper">
+                <div class="swiper-wrapper">
+                    <!--====== BLOG1 ======-->
+                    <div class="blogs_content swiper-slide">
+                        <img src="assets/img/blog1.jpg" alt="" class="blogs_img">
+                        <h3 class="blogs_title">Lorem, ipsum.</h3>
+                        <p class="blogs_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae excepturi eligendi. Quasi temporibus dolores, voluptatibus odio dignissimos alias officia velit, ducimus praesentium nemo soluta.</p>
+                        <div>
+                            <a href="#contact" class="button_light button--flex">View More</a>
+                        </div>
+                    </div>
+                    <!--====== BLOG2 ======-->
+                    <div class="blogs_content swiper-slide">
+                        <img src="assets/img/blog2.jpg" alt="" class="blogs_img">
+                        <h3 class="blogs_title">Lorem, ipsum.</h3>
+                        <p class="blogs_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae excepturi eligendi. Quasi temporibus dolores, voluptatibus odio dignissimos alias officia velit, ducimus praesentium nemo soluta.</p>
+                        <div>
+                            <a href="#contact" class="button_light button--flex">View More</a>
+                        </div>
+                    </div>
+                    <!--====== BLOG3 ======-->
+                    <div class="blogs_content swiper-slide">
+                        <img src="assets/img/blog3.jpg" alt="" class="blogs_img">
+                        <h3 class="blogs_title">Lorem, ipsum.</h3>
+                        <p class="blogs_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae excepturi eligendi. Quasi temporibus dolores, voluptatibus odio dignissimos alias officia velit, ducimus praesentium nemo soluta.</p>
+                        <div>
+                            <a href="#contact" class="button_light button--flex">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!--====== CONTACT ======-->
 
-            <!-- Contact section -->
-            <section class="contact section" id="contact">
-                <h2 class="section_title">Contact Me</h2>
-            </section>
-
-
-        <!-- Footer -->
         </main>
+        <!--====== FOOTER ======-->
+        <footer class="footer">
+            <div class="footer_container container">
+                <div class="footer_social">
+                    <a href="https://www.linkedin.com/in/barbra-gitonga/" target="_blank" class="footer_icon">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://github.com/BarbraGitonga" target="_blank" class="footer_icon">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://www.gitongabarbra@gmail.com" target="_blank" class="footer_icon">
+                        <i class='bx bx-envelope'></i>
+                    </a>
+                </div>
+                </div>
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#home" class="footer_link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="footer_link">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="footer_link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="footer_link">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="footer_copyright">&#169:
+                    BarbraGitonga. All right reserved
+                </p>
+            </div>
+        </footer>
 
+        <!--=== SWIPERJS ====-->
+        <script src="assets/Js/swiper-bundle.min.js"></script>
         <!--=== TYPEDJS ====-->
-        <script src="assets/typed.js/typed.min.js"></script>
+        <script src="assets/Js/typed.min.js"></script>
+        <!--====== MIXITUP FILTER ======-->
+       <script src="assets/Js/mixitup.min.js"></script>
         <!--=== JQUERY ===-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
         <!--=== JS ===-->
         <script src="assets/Js/main.js"></script>
         </body>
