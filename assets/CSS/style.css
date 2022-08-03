@@ -482,7 +482,7 @@ img{
 }
 
 /*====== BLOGS ======*/
-.blogs_content{
+/* .blogs_content{
     display: grid;
     background-color: var(--first-color-dark);
     color: var(--first-color-lighten);
@@ -513,7 +513,7 @@ img{
 }
 .swiper-pagination-bullet-active{
     background-color: #545656;
-}
+} */
 /*====== FOOTER ======*/
 .footer{
     background: var(--first-color-dark);

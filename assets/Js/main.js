@@ -86,22 +86,22 @@ function activePortfolio(){
 linkPortfolio.forEach(l=> l.addEventListener('click', activePortfolio))
 
 /*====== SWIPER JS ======*/
-const swiper = new Swiper('.blogs_container', {
-    spaceBetween: 16,
-    loop: true,
-    grabCursor: true,
+// const swiper = new Swiper('.blogs_container', {
+//     spaceBetween: 16,
+//     loop: true,
+//     grabCursor: true,
   
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    breakpoints:{
-        640:{
-            slidesPerView: 2,
-        },
-        1024:{
-            slidesPerView: 3,
-        },
-    }
-  });
+//     // If we need pagination
+//     pagination: {
+//       el: '.swiper-pagination',
+//       clickable: true,
+//     },
+//     breakpoints:{
+//         640:{
+//             slidesPerView: 2,
+//         },
+//         1024:{
+//             slidesPerView: 3,
+//         },
+//     }
+//   });
