@@ -387,6 +387,88 @@ img{
     border-radius: .5rem;
 }
 
+/*====== SKILLS ======*/
+.skills_container{
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+.skill_bx{
+    padding: 1rem;
+    color: var(--first-color-dark);
+    cursor: pointer;
+}
+.skill_bx:hover .skill_img{
+    transform: translateY(-10px);
+}
+.skill_bx:hover > .skill_title::after, .skill_bx:hover > .skill_title::before{
+    width: 35px;
+}
+.skill_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem;
+    margin-bottom: var(--mb-0-5);
+    position: relative;
+}
+.skill_title::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 2px 0 0 2px;
+    background-color: var(--first-color-light);
+    transition: .5s;
+}
+.skill_title::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px;
+    border-radius: 0 2px 2px 0;
+    background-color: var(--first-color-light);
+    transition: .5s;
+}
+.skill_title h2{
+    color: var(--text-color);
+    margin-top: .5rem;
+    font-size: var(--normal-font-size);
+}
+.skill_img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-color-dark);
+    transition: .5s;
+}
+.skill_img:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 90px;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 45px 0 0 45px;
+}
+.skills_icon{
+    width: 50px;
+    z-index: 2;
+}
+
+
 /*====== RESUME ======*/
 .resume_container{
     row-gap: 2.5rem;
@@ -421,10 +503,12 @@ img{
 }
 /*====== BANNER ======*/
 .banner_container{
+    min-height: 70px;
     padding: 1.5rem 1rem;
     background: var(--first-color-dark);
     color: var(--first-color-lighten);
     text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 90%, 0 100%);
 }
 .banner_icon, .banner_title{
     margin-bottom: var(--mb-0-5);
@@ -575,6 +659,13 @@ img{
 }
 
 /*=============== MEDIA QUERIES ===============*/
+@media screen and (max-width: 455px){
+    .skills_container{
+        grid-template-columns: repeat(2, 1fr);
+        padding: .5rem 50px;
+    }
+}
+
 @media screen and (min-width: 567px){
     .about_container,
     .resume_container,
@@ -629,6 +720,9 @@ img{
     .container{
         margin-left: auto;
         margin-right: auto;
+    }
+    .skills_container{
+        grid-template-columns: repeat(4, 1fr);
     }
     .resume_container{
         column-gap: 6rem;
