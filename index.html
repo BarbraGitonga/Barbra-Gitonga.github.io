@@ -6,14 +6,8 @@
         <meta name="author" content="Barbra Gitonga">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=== FAVICON ===-->
-        <link rel="shortcut icon" href="" type="image/x-icon">
-
         <!--====== BOXICONS ======-->
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
-        <!--=== SWIPER CSS ===-->
-        <link rel="stylesheet" href="assets/CSS/swiper-bundle.min.css">
 
         <!--=== CSS ===-->
         <link rel="stylesheet" href="assets/CSS/style.css">
@@ -47,6 +41,9 @@
                         <li class="nav_item">
                             <a href="#projects" class="nav_link">Projects</a>
                         </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link">Contact</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -60,9 +57,6 @@
         <!--====== HOME ======-->
         <section class="home" id="home">
             <div class="home_container">
-                <div class="home_img">
-                    <img src="assets/img/Team2.jpg" alt="">
-                </div>
                 <div class="home_content">
                     <h3>Hello</h3>
                     <h2>I'm <span class="home_name">Barbra</span></h2>
@@ -120,9 +114,9 @@
                 <div class="skill_bx">
                     <div class="skill_title">
                         <div class="skill_img">
-                            <img src="assets/skills/Autocad.png" alt="" class="skills_icon">
+                            <img src="assets/skills/git.png" alt="" class="skills_icon">
                         </div>
-                        <h2>Autocad</h2>
+                        <h2>Git</h2>
                     </div>
                 </div>
 
@@ -192,9 +186,9 @@
                 <div class="skill_bx">
                     <div class="skill_title">
                         <div class="skill_img">
-                            <img src="assets/skills/git.png" alt="" class="skills_icon">
+                            <img src="assets/skills/Autocad.png" alt="" class="skills_icon">
                         </div>
-                        <h2>Git</h2>
+                        <h2>Autocad</h2>
                     </div>
                 </div>
 
@@ -297,38 +291,6 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="resume_data">
-                            <h3 class="work_area">Lorem, ipsum.</h3>
-
-                            <div class="resume_box">
-                                <span class="resume_work">
-                                    <!--Place of Work-->
-                                    <i class='bx bx-briefcase resume-icon'></i> 
-                                    Lorem, ipsum.
-                                </span>
-                                <span class="resume_work">
-                                    <i class='bx bx-calendar-alt resume-icon' ></i>
-                                    <!--Dates of work-->
-                                    Date, Date.
-                                </span>
-                            </div>
-                        </div>
-                        <div class="resume_data">
-                            <h3 class="work_area">Lorem, ipsum.</h3>
-
-                            <div class="resume_box">
-                                <span class="resume_work">
-                                    <!--Place of Work-->
-                                    <i class='bx bx-briefcase resume-icon'></i> 
-                                    Lorem, ipsum.
-                                </span>
-                                <span class="resume_work">
-                                    <i class='bx bx-calendar-alt resume-icon' ></i>
-                                    <!--Dates of work-->
-                                    Date, Date.
-                                </span>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -341,7 +303,7 @@
                     <h2 class="banner_title">Have a project in mind?</h2>
                     <p class="banner_description">Hire me to carry out the project</p>
                 </div>
-                <div>
+                <div class="banner_button">
                     <a href="#contact" class="button_light button--flex">Contact Me</a>
                 </div>
             </div>
@@ -350,12 +312,14 @@
         <section class="projects section container" id="projects">
             <span class="section_subtitle">My Projects</span>
             <h2 class="section_title">Recent Works</h2>
+
             <div class="portfolio_nav">
-                <span class="portfolio_item .active_portfolio " data-filter="all">All</span>
+                <span class="portfolio_item active_portfolio " data-filter="all">All</span>
                 <span class="portfolio_item" data-filter=".ml">ML</span>
                 <span class="portfolio_item" data-filter=".cad">CAD</span>
-                <span class="portfolio_item" data-filter=".microcontroller">Microcontrollers</span>
+                <span class="portfolio_item" data-filter=".microcontroller">Microcontroller</span>
             </div>
+
             <div class="portfolio_container grid">
                 <!--Project 1-->
                 <div class="portfolio_content mix ml">
@@ -363,11 +327,13 @@
                         <img src="assets/img/Team1.jpg" alt="" class="portfolio_img">
                     </a>
                     <div class="portfolio_data">
-                        <span class="portfolio_subtitle">Lorem</span>
+                        <span class="portfolio_subtitle">ML</span>
                         <a href="#">
                             <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
                         </a>
-                        <a href="#" class="button">View More</a>
+                        <a href="#" class="portfolio_button">Read More
+                            <i class='bx bx-chevrons-right portfolio_icon'></i>
+                        </a>
                     </div>
                 </div>
                 <!--Project 2-->
@@ -376,11 +342,13 @@
                         <img src="assets/img/Team3.jpg" alt="" class="portfolio_img">
                     </a>
                     <div class="portfolio_data">
-                        <span class="portfolio_subtitle">Lorem</span>
+                        <span class="portfolio_subtitle">ML</span>
                         <a href="#">
                             <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
                         </a>
-                        <a href="#" class="button">View More</a>
+                        <a href="#" class="portfolio_button">Read More
+                            <i class='bx bx-chevrons-right portfolio_icon'></i>
+                        </a>
                     </div>
                 </div>
                 <!--Project 3-->
@@ -389,11 +357,13 @@
                         <img src="assets/img/Team1.jpg" alt="" class="portfolio_img">
                     </a>
                     <div class="portfolio_data">
-                        <span class="portfolio_subtitle">Lorem</span>
+                        <span class="portfolio_subtitle">CAD</span>
                         <a href="#">
                             <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
                         </a>
-                        <a href="#" class="button">View More</a>
+                        <a href="#" class="portfolio_button">Read More
+                            <i class='bx bx-chevrons-right portfolio_icon'></i>
+                        </a>
                     </div>
                 </div>
                 <!--Project 4-->
@@ -402,11 +372,13 @@
                         <img src="assets/img/Team3.jpg" alt="" class="portfolio_img">
                     </a>
                     <div class="portfolio_data">
-                        <span class="portfolio_subtitle">Lorem</span>
+                        <span class="portfolio_subtitle">CAD</span>
                         <a href="#">
                             <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
                         </a>
-                        <a href="#" class="button">View More</a>
+                        <a href="#" class="portfolio_button">Read More
+                            <i class='bx bx-chevrons-right portfolio_icon'></i>
+                        </a>
                     </div>
                 </div>
                 <!--Project 5-->
@@ -415,11 +387,13 @@
                         <img src="assets/img/Team1.jpg" alt="" class="portfolio_img">
                     </a>
                     <div class="portfolio_data">
-                        <span class="portfolio_subtitle">Lorem</span>
+                        <span class="portfolio_subtitle">Microcontroller</span>
                         <a href="#">
                             <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
                         </a>
-                        <a href="#" class="button">View More</a>
+                        <a href="#" class="portfolio_button">Read More
+                            <i class='bx bx-chevrons-right portfolio_icon'></i>
+                        </a>
                     </div>
                 </div>
                 <!--Project 6-->
@@ -428,53 +402,56 @@
                         <img src="assets/img/Team3.jpg" alt="" class="portfolio_img">
                     </a>
                     <div class="portfolio_data">
-                        <span class="portfolio_subtitle">Lorem</span>
+                        <span class="portfolio_subtitle">Microcontroller</span>
                         <a href="#">
                             <h2 class="portfolio_title">Lorem ipsum dolor sit amet.</h2>
                         </a>
-                        <a href="#" class="button">View More</a>
+                        <a href="#" class="portfolio_button">Read More
+                            <i class='bx bx-chevrons-right portfolio_icon'></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-        <!--====== BLOGS ======-->
-        <!-- <section class="blogs section container">
+
+        <!--====== CONTACT ======-->
+        <section class="contact" id="contact">
             <span class="section_subtitle">My</span>
-            <h2 class="section_title">Blogs</h2>
-            <div class="blogs_container swiper">
-                <div class="swiper-wrapper">
-                    
-                    <div class="blogs_content swiper-slide">
-                        <img src="assets/img/blog1.jpg" alt="" class="blogs_img">
-                        <h3 class="blogs_title">Lorem, ipsum.</h3>
-                        <p class="blogs_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae excepturi eligendi. Quasi temporibus dolores, voluptatibus odio dignissimos alias officia velit, ducimus praesentium nemo soluta.</p>
+            <h2 class="section_title">Contact</h2>
+            <div class="contact_container">
+                <div class="contact_data">
+                    <div class="contact_information">
+                        <a href="https://www.linkedin.com/in/barbra-gitonga/" target="_blank" class="contact_icon">
+                            <i class='bx bxl-linkedin-square'></i>
+                        </a>
                         <div>
-                            <a href="#contact" class="button_light button--flex">View More</a>
+                            <h3 class="contact_title">Message Me</h3>
+                            <span class="contact_subtitle">barbra-gitonga</span>
                         </div>
                     </div>
-                    
-                    <div class="blogs_content swiper-slide">
-                        <img src="assets/img/blog2.jpg" alt="" class="blogs_img">
-                        <h3 class="blogs_title">Lorem, ipsum.</h3>
-                        <p class="blogs_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae excepturi eligendi. Quasi temporibus dolores, voluptatibus odio dignissimos alias officia velit, ducimus praesentium nemo soluta.</p>
+
+                    <div class="contact_information">
+                        <a href="https://www.gitongabarbra@gmail.com" target="_blank" class="contact_icon">
+                            <i class='bx bx-envelope'></i>
+                        </a>
                         <div>
-                            <a href="#contact" class="button_light button--flex">View More</a>
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">gitongabarbra@gmail.com</span>
                         </div>
                     </div>
-                    
-                    <div class="blogs_content swiper-slide">
-                        <img src="assets/img/blog3.jpg" alt="" class="blogs_img">
-                        <h3 class="blogs_title">Lorem, ipsum.</h3>
-                        <p class="blogs_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae excepturi eligendi. Quasi temporibus dolores, voluptatibus odio dignissimos alias officia velit, ducimus praesentium nemo soluta.</p>
+
+                    <div class="contact_information">
+                        <a href="https://www.google.com/maps/place/Nairobi" target="_blank" class="contact_icon">
+                            <i class='bx bx-location-plus'></i>
+                        </a>
                         <div>
-                            <a href="#contact" class="button_light button--flex">View More</a>
+                            <h3 class="contact_title">Location</h3>
+                            <span class="contact_subtitle">Nairobi - Kenya</span>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
             </div>
-        </section> -->
-        <!--====== CONTACT ======-->
+        </section>
 
         </main>
         <!--====== FOOTER ======-->
@@ -513,14 +490,10 @@
             </div>
         </footer>
 
-        <!--=== SWIPERJS ====-->
-        <script src="assets/Js/swiper-bundle.min.js"></script>
         <!--=== TYPEDJS ====-->
         <script src="assets/Js/typed.min.js"></script>
         <!--====== MIXITUP FILTER ======-->
        <script src="assets/Js/mixitup.min.js"></script>
-        <!--=== JQUERY ===-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <!--=== JS ===-->
         <script src="assets/Js/main.js"></script>
         </body>
