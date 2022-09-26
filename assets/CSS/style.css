@@ -546,6 +546,7 @@ img{
 }
 .portfolio_img{
     width: 100%;
+    height: 60%;
     transition: .4s;
 }
 .portfolio_data{
@@ -553,11 +554,11 @@ img{
 }
 .portfolio_subtitle{
     font-size: var(--small-font-size);
-    color: var(--first-color-light);
-}
-.portfolio_title{
-    font-size: var(--normal-font-size);
     color: var(--first-color-dark);
+}
+.portfolio_description{
+    font-size: var(--smaller-font-size);
+    color: var(--first-color-light);
     margin: var(--mb-1) 0;
 }
 .portfolio_content:hover{
@@ -590,36 +591,6 @@ img{
     color: var(--first-color-lighten);
     background-color: var(--first-color-dark);
 }
-
-/* Portfolio Gallery */
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-
-  .swiper-v {
-    background: #eee;
-  }
 
 /*====== CONTACT ======*/
 .contact_container{
