@@ -74,24 +74,6 @@ const mixer = mixitup('.portfolio_container', {
     }
 });
 
-// Portfolio Gallery
-import Swiper from 'swiper/swiper-bundle.esm.js';
-import 'swiper/swiper-bundle.css';
-var swiperH = new Swiper('.swiper-h', {
-  spaceBetween: 50,
-  pagination: {
-    el: '.swiper-pagination-h',
-    clickable: true,
-  },
-});
-var swiperV = new Swiper('.swiper-v', {
-  direction: 'vertical',
-  spaceBetween: 50,
-  pagination: {
-    el: '.swiper-pagination-v',
-    clickable: true,
-  },
-});
 /* Link active portfolio */
 const linkPortfolio = document.querySelectorAll('.portfolio_item')
 
